@@ -17,7 +17,13 @@ erl_crash.dump
 *.ez
 
 # Ignore package tarball (built via "mix hex.build").
-rs_codec-*.tar
+rs_simd-*.tar
 
 # Temporary files, for example, from tests.
 /tmp/
+
+# Ignore binaries
+*.o
+*.so
+*.dylib
+native/rs_simd_nif/target
