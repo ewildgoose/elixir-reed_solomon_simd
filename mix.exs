@@ -6,7 +6,7 @@ defmodule RsSimd.MixProject do
 
   def project do
     [
-      app: :rs_simd,
+      app: :reed_solomon_simd,
       description: description(),
       package: package(),
       version: @version,

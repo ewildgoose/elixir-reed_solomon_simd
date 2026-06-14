@@ -1,5 +1,5 @@
 defmodule RsSimd do
-  use Rustler, otp_app: :rs_simd, crate: :rs_simd_nif
+  use Rustler, otp_app: :reed_solomon_simd, crate: :rs_simd_nif
 
   @moduledoc """
   Reed-Solomon erasure coding with SIMD acceleration
